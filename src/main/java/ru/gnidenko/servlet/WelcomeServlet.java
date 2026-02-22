@@ -23,6 +23,6 @@ public class WelcomeServlet extends HttpServlet {
             }
         }
         out.println("<h1>Hello "+ username +"</h1>");
-        out.println("<a href='info'><input type=\"submit\" value =\"info\"/></a>");
+        out.println("<a href='auth/info'><input type=\"submit\" value =\"info\"/></a>");
     }
 }
